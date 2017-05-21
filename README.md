@@ -1,6 +1,5 @@
 # sedajs
 
-[![npm version][npmsemver-image]][npmsemver-url]
 [![Build Status][ci-image]][ci-url]
 [![Coverage Status][cv-image]][cv-url]
 [![Code Climate][cq-image]][cq-url]
