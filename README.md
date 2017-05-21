@@ -14,12 +14,12 @@
 
 Work in progress. Expect breaking changes often.
 
-[ci-image]: https://travis-ci.org/fcanela/lifenastic-users.svg?branch=master
-[ci-url]: https://travis-ci.org/fcanela/lifenastic-users
-[cv-image]: https://coveralls.io/repos/github/fcanela/lifenastic-users/badge.svg?branch=master
-[cv-url]: https://coveralls.io/github/fcanela/lifenastic-users?branch=master
-[cq-image]: https://codeclimate.com/github/fcanela/lifenastic-users/badges/gpa.svg
-[cq-url]: https://codeclimate.com/github/fcanela/lifenastic-users
+[ci-image]: https://circleci.com/gh/sedajs/sedajs/tree/master.svg?style=svg
+[ci-url]: https://circleci.com/gh/sedajs/sedajs/tree/master
+[cv-image]: https://coveralls.io/repos/github/sedajs/sedajs/badge.svg?branch=master
+[cv-url]: https://coveralls.io/github/sedajs/sedajs?branch=master
+[cq-image]: https://codeclimate.com/github/sedajs/sedajs/badges/gpa.svg
+[cq-url]: https://codeclimate.com/github/sedajs/sedajs
 [deps-image]: https://david-dm.org/sedajs/sedajs.svg
 [deps-url]: https://david-dm.org/sedajs/sedajs
 [dev-deps-image]: https://david-dm.org/sedajs/sedajs/dev-status.svg
