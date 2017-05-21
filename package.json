@@ -1,0 +1,20 @@
+{
+  "name": "seda",
+  "version": "0.0.1",
+  "description": "Simple Event Driven Architecture for JavaScript",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm run test:unit && npm run lint && npm run test:coverage:check",
+    "test:unit": "nyc --reporter html --reporter text-summary mocha test/",
+    "test:coverage:check": "nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+    "lint": "eslint -c .eslint lib/*"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "mocha": "^3.2.0",
+    "nyc": "^10.2.0",
+    "sinon": "^2.1.0"
+  }
+}
