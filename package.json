@@ -4,14 +4,16 @@
   "description": "Simple Event Driven Architecture for JavaScript",
   "main": "lib/index.js",
   "scripts": {
-    "test": "npm run test:unit && npm run lint && npm run test:coverage:check",
+    "test": "npm run test:unit && npm run lint && npm run test:coverage:check && npm run reportLCOV",
     "test:unit": "nyc --reporter html --reporter text-summary mocha test/",
     "test:coverage:check": "nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
-    "lint": "eslint -c .eslint lib/*"
+    "lint": "eslint lib/*",
+    "reportLCOV": "nyc report --reporter=text-lcov | coveralls"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "coveralls": "^2.13.1",
     "eslint": "^3.19.0",
     "mocha": "^3.2.0",
     "nyc": "^10.2.0",
